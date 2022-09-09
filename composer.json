@@ -1,0 +1,25 @@
+{
+    "name": "marcolamr/whoops",
+    "type": "library",
+    "description": "Simple abstration to Whoops PHP",
+    "keywords": ["whoops", "error handler"],
+    "homepage": "https://github.com/marcolamr",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcos Roberto",
+            "email": "marcola.mr@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": { 
+            "MarcolaMr\\Whoops\\": "src/" 
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.1",
+        "filp/whoops": "^2.14"
+    }
+}
